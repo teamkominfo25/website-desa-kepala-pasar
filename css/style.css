@@ -1,0 +1,31 @@
+/* ============================= */
+/* News Card */
+/* ============================= */
+
+.news-card{
+
+transition:.35s;
+
+overflow:hidden;
+
+}
+
+.news-card:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+.news-card img{
+
+transition:.45s;
+
+}
+
+.news-card:hover img{
+
+transform:scale(1.08);
+
+}
